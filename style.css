@@ -1,10 +1,10 @@
-header {
+/* header {
     position: fixed;
     width: 100%;
     background: white; /* Assuming a white background for visibility */
     z-index: 1000; /* Keeps the header above other content */
     top: 0; /* Align to the top */
-}
+} */
 
 /* .wrap {
     padding-top: 100px; /* Adjust this value based on your header's height to prevent content overlap 
