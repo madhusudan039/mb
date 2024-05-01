@@ -1,35 +1,16 @@
-
-.wrap { 
-    padding: 25px; 
-    text-align: center; 
-    box-shadow: 0 4px 25px -4px #9da5ab; 
-}
-article { 
-    padding: 25px 0; 
-    line-height: 150%; 
-    text-align: left; 
+header {
+    position: fixed;
+    width: 100%;
+    background: white; /* Assuming a white background for visibility */
+    z-index: 1000; /* Keeps the header above other content */
+    top: 0; /* Align to the top */
 }
 
-nav .item {
-    text-decoration: none;
-}
-nav .active {
-    border-bottom: 1px solid;   
+.wrap {
+    padding-top: 100px; /* Adjust this value based on your header's height to prevent content overlap */
 }
 
-@media only screen and (min-width: 768px) {
-	img {
-  border-radius: 50%;
-  position:relative;
+article {
+    margin-top: 20px; /* Additional spacing between the header and article */
+    padding: 10px;
 }
-    article { 
-        padding: 40px; 
-    }
-	
-    .wrap { 
-        max-width: 750px; 
-        margin: 50px auto;
-        padding: 30px 40px;
-    }
-}
-    
